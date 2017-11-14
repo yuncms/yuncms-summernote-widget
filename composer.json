@@ -1,0 +1,41 @@
+{
+  "name": "yuncms/yuncms-summernote-widget",
+  "description": "The summer note widget for yuncms.",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "keywords": [
+    "Summernote",
+    "yii2"
+  ],
+  "authors": [
+    {
+      "name": "XuTL",
+      "email": "xutl@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.6",
+    "yuncms/yuncms-attachment": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "yuncms\\summernote\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.0-dev"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  ]
+}
